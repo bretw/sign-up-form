@@ -16,9 +16,10 @@
         </div>
         <div class = "main-content">
             <div class = "top-section">
-                This is not  a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+               <div> <b>This is not  a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</b>
+               </div>
                 <br>
-                You <em>know</em> you want to.
+               <b> You <em>know</em> you want to. </b>
             </div>
             <div class = "middle-section form">
                 <fieldset>
@@ -35,7 +36,7 @@
                         </div>
                         <div class="inputWrapper">
                          <label for="Password">Password</label>
-                            <input type="password" id="Password" name="Password">
+                            <input type="password" id="Password" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
                         </div>
                         </label>
 
@@ -48,11 +49,11 @@
                         </div>
                             <div class="inputWrapper">
                         <label for="phoneNumber">Phone Number</label>
-                            <input type="tel" id="phoneNumber" name="phoneNumber">
+                            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}">
                         </div>
                             <div class="inputWrapper">
                         <label for="confirmPassword">Confirm Password</label>
-                            <input type="password" id="confirmPassword" name="confirmPassword">
+                            <input type="password" id="confirmPassword" name="confirmPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
                         </div>
                     </div>
                 </fieldset>
@@ -60,6 +61,14 @@
 
             </div>
             <div class = "bottom-section">
+                    <button class = "button">
+                        Create Account
+                    </button>
+                    <div class="bottom-text">
+                    Already have an account?  <a href="">  Log in </a>
+                </div>
+                </div>
+
 
             </div>
         </div>
